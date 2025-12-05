@@ -121,3 +121,36 @@ text-decoration: underline;
     text-align: center;
 }
 
+.cards h2{
+    text-align: center;
+}
+.cards p {
+    text-align: center;
+}
+div.bigbox{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    
+}
+div.bigbox img{
+    width:100%;
+    height:auto;
+}
+.cards{
+    margin:5px;
+    width:390px;
+    height:auto;
+      border:1px solid black;
+      border-radius:5px;
+
+}
+.cards:hover{
+    border:3px solid black;
+    cursor: pointer;
+}
+
+.placeheading h1{
+    text-align: center;
+}
