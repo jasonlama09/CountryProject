@@ -200,6 +200,10 @@ div.bigbox img{
     text-align: center;
     font-size:45px;
 }
+.plmini p{
+    text-align: center;
+    font-size: 20px;
+}
 .plmin23{
     flex:1;
     display:flex;
@@ -209,6 +213,16 @@ div.bigbox img{
 .plmin23 img{
      width:auto;
     height:500px;
-    margin-left:100px;
+    margin-right:100px;
     margin-top:20px;
+    border:2px solid black;
+}
+.plmin23 img:hover{
+    cursor: pointer;
+}
+h1 {
+    text-align: center;
+}
+hr{
+    border:1px solid black;
 }
